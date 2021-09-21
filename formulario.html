@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+            formulario de ejemplo
+        </title>
+    </head>
+    <body>
+        <form action="formulario.html" method="POST">
+            <h3> Texto </h3>
+            <label for="nom">Nombre</label>
+            <input type="text" name="nombre" id="nombre" size="" maxlength="20">
+            
+            <h3> Contraseña</h3>
+            <label for="con"> Contraseña:</label>
+            <input type="password" name="" id="">
+
+            <h3>Area de texto</h3>
+            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+        
+            <h3>Spinner</h3>
+            <label for="spi">Spinner:</label>
+            <input type="number" name="spinner" id="" min="0" max="10" step="2">
+        
+            <h3>Fecha</h3>
+            <label for="fecha">Fecha:</label>
+            <input type="date" name="fecha" id="">
+       
+            <h3>Fecha-hora</h3>
+            <label for="fechahora">Fecha-hora:</label>
+            <input type="datetime-local" name="fecha-hora:" id="">
+
+            <h3>Hora</h3>
+            <label for="Hora">Hora:</label>
+            <input type="time" name="Hora" id="">
+        
+            <h3>Email</h3>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="">
+       
+            <h3>Semana</h3>
+            <label for="semana">Semana:</label>
+            <input type="week" name="semana" id="">
+
+            <h3>Botones</h3>
+            <label for="Botones">Botones:</label> <br><br>
+            <input type="radio" name="genero" value= "F" >Femenino <br><br>
+            <input type="radio" name="genero" value= "M" >Masculino
+
+            <h3> Lista de despliegue</h3>
+            <select name="autos" id="">Lista de autos
+                <option value="Mazda">Mazda</option>
+                <option value="Renault">Renault</option>
+                <option value="Chevrolet">Chevrolet</option>
+            </select>
+
+            <h3> Adjuntar archivo </h3>
+            <label for="archivo">archivo:</label> 
+            <input type="file" name="archivo" id="">
+
+            <h3> Rango </h3>
+            <label for="Rango">Rango:</label> 
+            <input type="range" name="rango" id="" min="0" max="5"> <br><br>
+            <input type="submit" value="Aceptar">
+        </form>
+    </body>
+</html>
